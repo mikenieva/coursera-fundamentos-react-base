@@ -1,12 +1,11 @@
 import React from "react";
 import Heading from "./Heading";
-import ListArticles from "./ListArticles";
 
-export default function Articles(props) {
+export default function Articles() {
   return (
     <div>
       <Heading />
-      <ListArticles allArticles={props.allArticles} />
+      {/* LISTAR ARTÍCULOS */}
     </div>
   );
 }
